@@ -81,7 +81,7 @@ fun MedicDrill() {
                     onValueChangeFinished = {
                         sliderIndexMap[index] = sliderPosition.roundToInt()
                     },
-                    valueRange = 1f..200f,
+                    valueRange = 1f..100f,
                     steps = 99,
                 )
             }
